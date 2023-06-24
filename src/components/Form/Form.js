@@ -12,6 +12,7 @@ function Form({ deletePlaceholders, setWeatherData, loadWeather }) {
             onChange={(e) => setCity(e.target.value)}
             className="form__input"
             type="text"
+            placeholder="City"
           />
           <button className="form__button"></button>
         </form>

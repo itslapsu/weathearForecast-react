@@ -33,6 +33,21 @@
   -ms-flex-item-align: center;
       align-self: center;
 }
+.form__input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.1882352941);
+}
+.form__input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.1882352941);
+}
+.form__input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.1882352941);
+}
+.form__input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.1882352941);
+}
+.form__input::placeholder {
+  color: rgba(255, 255, 255, 0.1882352941);
+}
 .form__button {
   all: unset;
   width: 15%;

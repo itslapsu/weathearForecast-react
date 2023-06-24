@@ -25,6 +25,8 @@ function App() {
       .then(function (response) {
         if (response.ok) {
           return response.json();
+        } else {
+          throw new Error("City not found");
         }
       })
       .then(function (data) {
@@ -35,7 +37,7 @@ function App() {
         }
       })
       .catch(function (error) {
-        console.log(error);
+        // Пустой блок catch
       });
   };
 
