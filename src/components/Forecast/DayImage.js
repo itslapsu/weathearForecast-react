@@ -6,5 +6,11 @@ export default function DayImage({ weatherData, index }) {
     ? "https://" + weatherData.forecast.forecastday[index].day.condition.icon
     : `${clearImage}`;
 
-  return <img src={dayImageLink} alt="" className="days__icon placeholder" />;
+  return (
+    <img
+      src={dayImageLink.replace("64x64", "128x128")}
+      alt=""
+      className="days__icon placeholder"
+    />
+  );
 }

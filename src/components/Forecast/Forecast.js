@@ -29,7 +29,7 @@ function Forecast({ weatherData, day, setDay }) {
           </ul>
         </div>
         <div className="forecast__days placeholder-grow">
-          <ul className="days">
+          <ul className="days placeholder">
             <Day
               weatherData={weatherData}
               day={day}

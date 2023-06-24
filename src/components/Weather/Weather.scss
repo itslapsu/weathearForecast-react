@@ -88,12 +88,15 @@
           margin-left: 16px;
           margin-bottom: 14px;
           grid-area: img;
+          width: 32px;
+          height: 32px;
         }
 
         .item__values {
           grid-area: values;
           margin-top: 12px;
           margin-bottom: 12px;
+          margin-right: 12px;
 
           .values__title {
             font-weight: 400;

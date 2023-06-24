@@ -84,6 +84,10 @@
 .days__item .max-min {
   font-size: 16px;
 }
+.days__icon {
+  width: 64px;
+  height: 64px;
+}
 .days__link {
   text-decoration: none;
   color: #fff;

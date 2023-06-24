@@ -1,4 +1,5 @@
 import React from "react";
+import clearImage from "../../image/clear.png";
 
 export default function StatsItem({
   weatherData,
@@ -14,9 +15,13 @@ export default function StatsItem({
 
   return (
     <div className="stats__item">
-      <img src={icon} alt="" className="stats__item__img" />
-      <div className="item__values">
-        <p className="values__title ">{title}</p>
+      <img
+        src={weatherData ? icon : clearImage}
+        alt=""
+        className="stats__item__img placeholder"
+      />
+      <div className="item__values placeholder">
+        <p className="values__title placeholder">{title}</p>
         <p className="values__value wind placeholder">
           {statsValue}
           <span>{text}</span>

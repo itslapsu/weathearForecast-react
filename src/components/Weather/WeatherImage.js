@@ -11,7 +11,11 @@ export default function WeatherImage({ weatherData, day }) {
   }
 
   return weatherData ? (
-    <img src={weatherImageLink} alt="" className="weather__icon" />
+    <img
+      src={weatherImageLink.replace("64x64", "128x128")}
+      alt=""
+      className="weather__icon"
+    />
   ) : (
     ""
   );
