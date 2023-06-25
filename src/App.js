@@ -32,6 +32,7 @@ function App() {
       .then(function (data) {
         if (data) {
           setWeatherData(data);
+          setDay(0);
           deletePlaceholders();
           console.log(data);
         }

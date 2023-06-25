@@ -2,7 +2,7 @@ import "../css/Form.css";
 import React from "react";
 
 function Form({ deletePlaceholders, setWeatherData, loadWeather }) {
-  const [city, setCity] = React.useState("1");
+  const [city, setCity] = React.useState("");
 
   return (
     <section className="form">
