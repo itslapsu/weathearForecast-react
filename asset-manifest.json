@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.bcb47df5.css",
-    "main.js": "/static/js/main.b4a11763.js",
+    "main.css": "/static/css/main.45ca3917.css",
+    "main.js": "/static/js/main.558dfc68.js",
     "static/js/787.74e6b0f6.chunk.js": "/static/js/787.74e6b0f6.chunk.js",
+    "static/media/cloudy.mp4": "/static/media/cloudy.a329184a41a6a59635f6.mp4",
+    "static/media/sun and cloud.mp4": "/static/media/sun and cloud.3a289c98dd4e1bee0898.mp4",
+    "static/media/rain.mp4": "/static/media/rain.c8ce8bea952f38e62ff2.mp4",
+    "static/media/fog.mp4": "/static/media/fog.dbd358a0f56ca57a2579.mp4",
     "static/media/bg-main.png": "/static/media/bg-main.a03e018694d0fd3de829.png",
     "static/media/wind.svg": "/static/media/wind.32bcf0e1b2a41d44298ba26b0ea2fbb6.svg",
     "static/media/humidity.svg": "/static/media/humidity.d5608ef514a5059e657dbfdd03172d84.svg",
@@ -10,12 +14,12 @@
     "static/media/search.svg": "/static/media/search.d5012bf6d2a84d92a805.svg",
     "index.html": "/index.html",
     "static/media/geo.svg": "/static/media/geo.7120d25703d339b588675b46d8332622.svg",
-    "main.bcb47df5.css.map": "/static/css/main.bcb47df5.css.map",
-    "main.b4a11763.js.map": "/static/js/main.b4a11763.js.map",
+    "main.45ca3917.css.map": "/static/css/main.45ca3917.css.map",
+    "main.558dfc68.js.map": "/static/js/main.558dfc68.js.map",
     "787.74e6b0f6.chunk.js.map": "/static/js/787.74e6b0f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcb47df5.css",
-    "static/js/main.b4a11763.js"
+    "static/css/main.45ca3917.css",
+    "static/js/main.558dfc68.js"
   ]
 }
